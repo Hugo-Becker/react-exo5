@@ -6,9 +6,9 @@ class Profil extends React.Component{
     render(){
         return(
             <div>
-                <h1>Nom : Nicolas </h1>
-                <h2>Prenom : Primo </h2>
-                <p>Description : Un gars qui sla pet </p>
+                <h1>Prenom :  {this.props.prenom} </h1>
+                <h2>Nom : {this.props.nom}  </h2>
+                <p>Description :  {this.props.children}  </p>
             </div>
             
         )
